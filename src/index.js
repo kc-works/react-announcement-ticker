@@ -33,7 +33,7 @@ class NewsTicker extends React.Component {
                                 if (newsListItem.link.length !== 0) {
                                     return (
 
-                                        <li key={newsListItemKey}><a href={newsListItem.link.length}>{newsListItem.text || ""}</a></li>
+                                        <li key={newsListItemKey}><a href={newsListItem.link}>{newsListItem.text || ""}</a></li>
                                     )
 
                                 } else {
